@@ -1,0 +1,92 @@
+@use "./abstract/colors" as *;
+
+header {
+    position: sticky;
+    width: 100%;
+    float: left;
+    z-index: 1;
+    top: 0;
+    margin-left: 0px;
+
+    li {
+        list-style: none;
+
+
+        a {
+            color: $white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.headermain {
+    background-color: $primary-blue;
+
+    &__first {
+        margin: 0 15px;
+        position: sticky;
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__first {
+        margin-left: 35px;
+        // color: $white;
+    }
+
+
+    &__contact {
+        & svg {
+            margin-left: 130px;
+            margin-top: 10px;
+
+            @media screen and (min-width: 1023px) {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contact {
+        visibility: hidden;
+    }
+}
+
+.hamburg__merge {
+    display: flex;
+    margin-left: -128px;
+}
+
+@media screen and (min-width: 1023px) {
+    .contact {
+        background-color: $primary-blue;
+        margin-right: -4rem;
+
+        @media screen and (max-width: 1023px) {
+        }
+
+        &__button {
+            background-color: $yellow;
+            border: 0.0625rem solid $yellow;
+            color: $primary-blue;
+            border-radius: 0.3125rem;
+            display: inline-block;
+            font-family: "Montserrat", sans-serif;
+            text-decoration: none;
+            font-size: 0.75rem;
+            font-weight: 900;
+            letter-spacing: 0.125rem;
+            margin-top: 0.5rem;
+            padding: 0.5rem 0.5rem;
+
+            &:hover {
+                color: $yellow;
+                background-color: $primary-blue;
+            }
+        }
+    }
+}

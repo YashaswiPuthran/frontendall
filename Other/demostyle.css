@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    margin: -8px;
+    }
+
+    .container-block {
+        position: absolute;
+        bottom: 150px;
+        left: 1px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .container-blocksecond {
+        position: absolute;
+        bottom: 300px;
+        right: 1px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-block__button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: purple;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+
+    .container-block__button:hover {
+        border-color: violet;
+        background-color: violet;
+        color: white;
+    }
+
+    .container-blocksecond__link {
+        color: white;
+    }

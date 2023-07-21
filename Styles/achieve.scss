@@ -1,0 +1,135 @@
+@use "./abstract/colors" as *;
+
+.achieve {
+
+
+    &__wrapper {
+        background: $primary-blue url(https://www.specbee.com/themes/custom/specbee/assets/media/webp/billboard-bg-light.webp) no-repeat 50%;
+background-size: cover;
+background-color: $primary-blue;
+background-blend-mode: multiply;
+    }
+
+    &__media {
+        margin-left: 10px;
+    }
+
+    &__content {
+        color: $white;
+
+        @media only screen and (min-width: 48rem) {
+            display: flex;
+    margin-left: -1px;
+        }
+
+        &__left {
+            @media only screen and (min-width: 48rem) {
+                margin-left: 157px;
+                width: 50%;
+            }
+        }
+
+        &__right img {
+            @media only screen and (min-width: 48rem) {
+                width: 650px;
+                height: 660px;
+                margin-left: -187px;
+                margin-top: -36px;
+            }
+        }
+
+
+
+    &__title {
+        margin-top: 0px;
+        padding-top: 130px;
+        padding-left: 22px;
+        padding-right: 89px;
+        font-size: 20px;
+
+        @media only screen and (min-width: 48rem) {
+            font-size: 2.5rem;
+        }
+    }
+
+    &__body {
+        padding-left: 24px;
+    padding-top: 5px;
+
+    @media only screen and (min-width: 48rem) {
+        font-size: 1.3rem;
+    }
+    }
+
+    &__link {
+        padding-left: 24px;
+        padding-top: 45px;
+    }
+
+    &__button {
+        box-sizing: border-box;
+    text-decoration: none;
+    /* padding-top: 0px; */
+    /* margin-top: 42px; */
+    color: blue;
+    background-color: $yellow;
+    border: 0.825rem solid #e3F307;
+            color: $primary-blue;
+            border-radius: 0.6125rem;
+
+            display: inline-block;
+            font-family: "Montserrat", sans-serif;
+            text-decoration: none;
+            font-size: 0.75rem;
+            font-weight: 900;
+            letter-spacing: 0.125rem;
+
+            &:hover {
+
+                @media only screen and (min-width: 48rem) {
+                color: $yellow;
+                background-color: $primary-blue;
+                padding: 5px;
+                }
+            }
+    }
+}
+
+&__trusted {
+    color: $white;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 12px;
+
+
+    &::after {
+        background-color: #e3f307;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 0.3125rem;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 3.75rem;
+
+
+}
+
+@media only screen and (min-width: 48rem) {
+    margin-left: 133px;
+    font-size: 1.5rem;
+}
+
+    }
+}
+

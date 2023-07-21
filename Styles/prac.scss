@@ -1,0 +1,46 @@
+@use "./abstract/colors" as *;
+
+.genius {
+
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__new h2 {
+        font-size: 12px;
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+
+    &__card {
+        width: 20%;
+        border-right: groove;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    &__title {
+        font-size: 20px;
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+
+    &__name {
+        color: $black;
+
+        a {
+            text-decoration: none;
+            color: $black;
+        }
+    }
+
+
+}

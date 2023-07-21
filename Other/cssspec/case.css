@@ -1,0 +1,102 @@
+.case-study {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 235, 235);
+
+}
+
+.case-study__para {
+    display: inline;
+}
+
+.case-study h2 {
+    font-size: 70px;
+}
+
+.case-study a {
+    text-decoration: none;
+    color: black;
+}
+
+.case-study p {
+    font-size: 40px;
+    padding-top: -20px;
+}
+
+.case__study__text {
+    margin-top: -45px;
+}
+
+.case-study__explore {
+    float: right;
+}
+
+.case-study__explore p {
+    font-size: 18px;
+}
+
+.case-study__explore a {
+    font-size: 18px;
+}
+
+.case-study__explore::after {
+    content: '→';
+    font-size: 18px;
+}
+
+.case-study__para {
+    /* padding-right: 50px;
+    padding-left: 50px; */
+    justify-content: center;
+    margin-top: 75px;
+    background-color: white;
+    height: 500px;
+    width: 550px;
+    margin-left: -5%;
+}
+
+.case-study__button::after {
+    content: '→';
+    color: white;
+}
+
+.case-study__button {
+    float: right;
+    margin-top: 36px;
+    margin-left: 365px;
+    background-color: orangered;
+    border: none;
+    text-decoration: none;
+    /* padding: 20px 1px; */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+
+.case-study__button a {
+    color: white;
+    width: 120%;
+}
+@media only screen and (max-width: 750px) {
+    .case-study {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .case__study__para {
+        display: flex;
+        width: 500%;
+        justify-content:center ;
+        margin-top: 0px;
+
+    }
+    .case-study img {
+        width: 200%;
+    }
+
+}

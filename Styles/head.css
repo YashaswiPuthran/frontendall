@@ -1,0 +1,75 @@
+header {
+  position: sticky;
+  width: 100%;
+  float: left;
+  z-index: 1;
+  top: 0;
+  margin-left: 0px;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.headermain {
+  background-color: rgb(6, 6, 228);
+}
+.headermain__first {
+  margin: 0 15px;
+  position: sticky;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headermain__first {
+  margin-left: 35px;
+}
+.headermain__contact svg {
+  margin-left: 130px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 1023px) {
+  .headermain__contact svg {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .contact {
+    visibility: hidden;
+  }
+}
+.hamburg__merge {
+  display: flex;
+  margin-left: -128px;
+}
+
+@media screen and (min-width: 1023px) {
+  .contact {
+    background-color: rgb(6, 6, 228);
+    margin-right: -4rem;
+  }
+  .contact__button {
+    background-color: #e3F307;
+    border: 0.0625rem solid #e3F307;
+    color: rgb(6, 6, 228);
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.125rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .contact__button:hover {
+    color: #e3F307;
+    background-color: rgb(6, 6, 228);
+  }
+}/*# sourceMappingURL=head.css.map */

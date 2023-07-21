@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(39, 150, 172);
+    margin-left: -270px;
+}
+h1 {
+    color: white;
+}
+p {
+    width: 500px;
+    color:white;
+}
+ul {
+    color: white;
+}
+
+.block {
+    background-color: rebeccapurple;
+    width:fit-content;
+    margin-left: 700px;
+    padding: 20px;
+}
+.block--buttons__button1 {
+    background-color: yellow;
+    border: white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.block---buttons__button2 {
+    background-color: yellow;
+    border: white;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.block-buttons__button1:hover {
+    background-color: palevioletred;
+    color: brown;
+}
+.block-buttons__button2:hover {
+    background-color: palevioletred;
+    color: brown
+}

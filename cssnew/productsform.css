@@ -1,0 +1,23 @@
+.form-products {
+    display: inline-flex;
+  }
+  .form-products h2 {
+    float: right;
+    padding-right: 20px;
+    padding-top: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Work Sans", sans-serif;
+  }
+  .products__heading {
+    text-align: center;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .products__form {
+    margin-left: 200px;
+    margin-right: 820px;
+    font-family: "Work Sans", sans-serif;
+  }

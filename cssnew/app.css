@@ -1,0 +1,25 @@
+.app__para {
+    margin-right: 235px;
+    margin-left: 235px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: grey;
+  }
+
+  .app__list {
+    margin-right: 235px;
+    margin-left: 235px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: grey;
+  }
+
+  .app__list li {
+    padding: 15px;
+  }
+
+  .app__heading {
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+  }

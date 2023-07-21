@@ -1,0 +1,120 @@
+.food {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+.food__title__view {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .food__title__view {
+    position: relative;
+  }
+}
+.food__view {
+  margin-top: 41px;
+  margin-left: 565px;
+}
+@media screen and (max-width: 768px) {
+  .food__view {
+    margin-left: 0px;
+    position: absolute;
+    top: 970px;
+    text-align: center;
+    margin-right: 176px;
+    width: 100%;
+  }
+}
+.food__view a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(6, 6, 228);
+  font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial;
+}
+.food__wrapper {
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .food__wrapper {
+    display: block;
+  }
+}
+.food__title {
+  font-size: 25px;
+  font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .food__title {
+    font-size: 20px;
+  }
+}
+.food__cards {
+  width: 33%;
+  display: flex;
+  border: 2px solid #f2f2f2;
+  padding: 16px;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .food__cards {
+    width: 92%;
+    margin-bottom: 10px;
+  }
+}
+.food__cards img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.food__cards__time {
+  margin-bottom: -16px;
+  letter-spacing: 0px;
+  font-weight: 900;
+  font-size: 14px;
+}
+.food__cards__head {
+  display: flex;
+}
+.food__cards__content {
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  --truncate-lines: 2;
+  -webkit-line-clamp: var(--truncate-lines);
+  -webkit-box-orient: vertical;
+}
+.food__cards__content a {
+  text-decoration: none;
+  color: rgb(6, 6, 228);
+}
+.food__cards__desc {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  --truncate-lines: 2;
+  -webkit-line-clamp: var(--truncate-lines);
+  -webkit-box-orient: vertical;
+  font-size: 17px;
+  font-family: brandon-grotesque, "Helvetica Neue", Helvetica, arial;
+  color: rgb(79, 78, 78);
+}
+.food__cards__star {
+  margin-top: 10px;
+}
+.food__cards__reply {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgb(79, 78, 78);
+}
+.food__cards__like a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  color: rgb(79, 78, 78);
+}

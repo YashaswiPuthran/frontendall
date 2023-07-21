@@ -1,0 +1,149 @@
+.case-study {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.case-study__image img {
+    width: 108%;
+    height: 100%;
+}
+
+.case-study__desc {
+    padding: 50px 30px 80px;
+
+}
+
+.case-study__desc h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.case-study__desc p {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.case-study__desc a {
+    text-decoration: none;
+    color: black;
+    align-self: flex-end;
+}
+
+.case-study__image {
+    flex-basis: 70%;
+}
+
+.case-study__text {
+    justify-items: right;
+    align-self: center;
+    position: relative;
+    right: 0%;
+    width: 60%;
+
+
+}
+
+
+.case-study__desc {
+    background-color: white;
+    color: black;
+
+}
+
+
+.case-study__view--button {
+    background-color: rgb(241, 90, 9);
+    color: white;
+    margin-top: 16px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin-left: 53px;
+}
+.case-study__view--button::after {
+    content: '→';
+    color: white;
+}
+
+.case-study__view--button:hover {
+    cursor: pointer;
+}
+
+.case-study__button {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 71%;
+}
+
+section {
+    justify-content: center;
+}
+
+
+.case-study__explore {
+    text-align: end;
+}
+
+.case-study__explore::after {
+    content:'→';
+}
+
+@media screen and (max-width: 850px) {
+    .case-study {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .case-study-container {
+        flex-basis: 40%;
+    }
+
+    .case-study__text {
+        width: 101%;
+        padding: 0;
+        margin: 0;
+        right: 0;
+        text-align: center;
+        margin-left: 17px;
+    }
+
+    .case-study__info {
+        padding: 50px 10px;
+        margin: 0;
+    }
+    .case-study__desc p {
+        padding: 0;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .case-study__desc h1 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+    .case-study__explore {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .case-study__button {
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 23px;
+    }
+}

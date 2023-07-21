@@ -1,0 +1,73 @@
+.accord {
+  width: 100%;
+  background-color: rgb(6, 6, 228);
+}
+.accord__main {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  justify-content: center;
+  gap: 8rem;
+}
+@media screen and (min-width: 48rem) {
+  .accord__main {
+    display: flex;
+  }
+}
+.accord__item {
+  border-top: 0.0625rem solid #fff;
+  width: 24rem;
+}
+@media screen and (min-width: 48rem) {
+  .accord__item {
+    width: 31rem;
+  }
+}
+.accord__item:last-child {
+  border-bottom: 0.0625rem solid #fff;
+}
+.accord__desc {
+  padding: 10px;
+  display: none;
+  max-width: 30rem;
+  color: #fff;
+}
+.accord__desc p {
+  font-size: 1rem;
+  line-height: 2;
+}
+.accord__desc li {
+  font-size: 1rem;
+  line-height: 2;
+}
+.accord__title {
+  background-color: rgb(6, 6, 228);
+  padding: 16px 40px 16px 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+}
+.accord__title::before {
+  background: #fff;
+  content: "";
+  height: 0.25rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: all 0.25s ease-in-out;
+  width: 1rem;
+}
+.accord__title::after {
+  background: #fff;
+  content: "";
+  height: 0.25rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: all 0.25s ease-in-out;
+  transform: rotate(90deg);
+  width: 1rem;
+}

@@ -1,0 +1,99 @@
+.assessment__wrapper {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .assessment__wrapper {
+    display: block;
+  }
+}
+.assessment__image {
+  position: relative;
+}
+.assessment__image img {
+  width: 100%;
+  height: 500px;
+}
+.assessment__image img:hover {
+  opacity: 0.3;
+}
+.assessment__card__right {
+  position: absolute;
+  bottom: 20px;
+  background-color: red;
+  width: 70%;
+  text-align: left;
+  padding: 20px;
+  margin-left: 90px;
+  transition: transform 0.3s ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  .assessment__card__right {
+    top: 0px;
+    width: auto;
+    padding: 20px;
+    margin-left: 0px;
+    position: relative;
+    margin-top: -25px;
+  }
+}
+.assessment__card__right:hover {
+  transform: translate(-15%, 5%);
+}
+.assessment__card__left {
+  position: absolute;
+  bottom: 20px;
+  background-color: red;
+  width: 70%;
+  text-align: left;
+  padding: 20px;
+  margin-left: 90px;
+  transition: transform 0.2s ease-in-out;
+}
+@media screen and (max-width: 767px) {
+  .assessment__card__left {
+    top: 0px;
+    width: auto;
+    padding: 20px;
+    margin-left: 0px;
+    position: relative;
+    margin-top: -25px;
+  }
+}
+.assessment__card__left:hover {
+  transform: translate(16%, 5%);
+}
+.assessment__cards {
+  width: 50%;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  .assessment__cards {
+    width: 100%;
+  }
+}
+.assessment__link a {
+  text-decoration: none;
+  color: #fff;
+}
+.assessment__content::after {
+  content: "";
+  height: 0.1rem;
+  width: 25px;
+  background-color: white;
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  .assessment__content::after {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.overlay {
+  opacity: 1;
+}
+.overlay:hover {
+  opacity: 3;
+}

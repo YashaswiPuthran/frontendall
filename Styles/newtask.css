@@ -1,0 +1,116 @@
+.ad__wrapper {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-family: proxima bold, Arial, sans-serif;
+}
+.ad__gb {
+  position: absolute;
+  top: -16px;
+  left: 95px;
+  background-color: #65bbdb;
+  color: white;
+  border-radius: 12px;
+  padding: 8px 40px;
+}
+.ad .topname {
+  position: absolute;
+  top: -16px;
+  left: 95px;
+  padding: 8px 15px;
+  color: orangered;
+  border: 2px solid orangered;
+}
+.ad__card {
+  width: 20%;
+  padding: 20px;
+  border: 2px solid grey;
+  position: relative;
+}
+.ad__card:last-child::before {
+  content: url(https://www.hughesnet.com/themes/custom/hughesnet_na_base_theme/images/Starburst.png);
+  position: absolute;
+  top: -25px;
+  left: -15px;
+}
+.ad__content {
+  text-align: center;
+  margin: 30px 0;
+}
+.ad__title h2 {
+  color: #174c8f;
+  font-size: 16px;
+}
+.ad__title h3 {
+  font-size: 12px;
+  color: white;
+}
+.ad__des p {
+  color: gray;
+  font-size: 18px;
+}
+.ad__des a {
+  color: white;
+}
+.ad .more {
+  color: white;
+}
+.ad .more p {
+  color: white;
+}
+.ad__paragraph {
+  color: #787878;
+  font-size: 18px;
+  font-weight: 800;
+}
+.ad__price {
+  color: #0091c4;
+  font-size: 35px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.ad .price {
+  color: white;
+  margin-top: 0;
+}
+.ad .discount {
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+.ad .discount::before {
+  border-top: 1px solid;
+  border-color: white;
+  transform: rotate(-15deg);
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+}
+.ad__order {
+  padding: 8px 20px;
+  margin: 20px 0;
+  border-radius: 25px;
+  background-color: orangered;
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+}
+.ad__order a {
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+.ad__save {
+  padding-bottom: 20px;
+}
+.ad__save p {
+  color: white;
+  margin-top: 0;
+}
+.ad .background {
+  background-color: #174c8f;
+}/*# sourceMappingURL=newtask.css.map */

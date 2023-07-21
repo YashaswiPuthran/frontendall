@@ -1,0 +1,122 @@
+.header {
+    display: flex;
+}
+
+.header__nav {
+    padding-top: 15px;
+}
+
+.header__nav__list {
+    /* margin-right: 50px; */
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    margin-left: 380px;
+    font-size: 18px;
+}
+
+.header__logo img {
+    width: 200px;
+    height: auto;
+}
+
+.header__logo {
+    margin: 10px;
+    padding-top: 4px;
+    padding-left: 40px;
+}
+
+.header__nav__list li {
+    text-decoration: none;
+}
+
+.header__nav__list a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__button {
+    background-color: orangered;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 60px;
+    color: white;
+}
+
+.header__button:hover {
+    cursor: pointer;
+}
+
+.nav {
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .header{
+        justify-content: center;
+        width: 120%;
+    }
+    .header__logo {
+        padding-left: 53%;
+    }
+    .header__nav__list {
+        visibility: hidden;
+        display: none;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .header__button {
+        margin-left: 300px;
+        padding-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+ .main {
+    width: 186%;
+    background-color: blue;
+ }
+ .main__heading h1 {
+    text-align: center;
+ }
+ .main__heading h2 {
+    text-align: center;
+ }
+ .main__button a {
+    text-align: center;
+ }
+ .main__button {
+    margin-left: 33px;
+ }
+}
+
+@media only screen and (max-width: 750px) {
+    .review {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .main {
+       width: 200%;
+       background-color: blue;
+    }
+    .main__heading h1 {
+       text-align: center;
+    }
+    .main__heading h2 {
+       text-align: center;
+    }
+    .main__button a {
+       text-align: center;
+    }
+    .main__button {
+       margin: auto;
+       text-align: center;
+    }
+   }

@@ -1,0 +1,40 @@
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    margin: 7%;
+    padding: 5%;
+    margin-top: 30px;
+  }
+
+  .about__left__column img {
+    height: 500px;
+    width: 570px;
+  }
+
+  .about__right__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about__desc h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  "Work Sans", sans-serif;
+  }
+
+  .about__desc h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family:  "Work Sans", sans-serif;
+    color: grey;
+  }
+
+  .about__desc p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:  "Work Sans", sans-serif;
+    color: grey;
+  }

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.hero-banner__image {
+    margin-top: 25px;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 780px) {
+    .hero-banner__image {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .hero-banner__image {
+    width: 100%;
+    padding-top: 10%;
+}
+}

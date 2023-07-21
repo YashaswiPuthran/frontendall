@@ -1,0 +1,78 @@
+.main {
+    background-image: url("https://www.specbee.com/sites/default/files/2023-04/new-home-page-banner.jpg");
+    background-size: cover;
+    height: 750px;
+    margin-bottom: 30px;
+}
+.main__heading {
+    margin-left: 4%;
+    padding-right:55% ;
+}
+.main__heading h1 {
+    font-size: 4.5rem;
+    color: white;
+}
+.main__heading h2 {
+    font-size: 1.7rem;
+    margin-top: -1%;
+    color: white;
+}
+
+.main__button {
+    background-color:  rgb(241, 90, 9);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 60px;
+    color: white;
+    margin-left: 4%;
+}
+.main__button a {
+   color: white;
+   text-decoration: none;
+}
+.main__button::after {
+content: '→';
+color: white;
+}
+.main__heading h1 {
+    padding-top: 10%;
+}
+
+.main__heading h2 {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 850px) {
+    .main {
+        background-image: none;
+        background-color: #398dd6;
+        width: 108%;
+        height:70%;
+    }
+
+    .main__heading h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .main__heading h2{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .main__heading {
+        margin-left: 0;
+        padding-right:0;
+    }
+
+    .main__btn{
+        text-align: center;
+        padding-bottom: 30%;
+    }
+
+}

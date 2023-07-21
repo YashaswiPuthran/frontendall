@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  background-color: rgb(6, 6, 228);
+  padding-bottom: 100px;
+}
+.services__image__wrapper {
+  background-image: url("https://www.specbee.com/themes/custom/specbee/assets/media/icons/polygon.svg");
+  background-repeat: no-repeat;
+  width: 15rem;
+  height: 15rem;
+  background-position-x: 50%;
+  background-position-y: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.services__image__wrapper img {
+  width: 6rem;
+  transition: all 0.25s ease-in-out;
+}
+.services__image__wrapper:hover img {
+  transform: scale(0.8);
+}
+.services__image__wrapper:before {
+  background: url("https://www.specbee.com/themes/custom/specbee/assets/media/icons/polygon-line.svg") no-repeat 50%/contain;
+  content: "";
+  height: 17.5rem;
+  left: -1.1875rem;
+  position: absolute;
+  top: -1.125rem;
+  width: 17.5rem;
+  transform: scale(0.5);
+  z-index: -10;
+  transition: 0.25s;
+}
+.services__image__wrapper:hover:before {
+  transform: scale(1);
+  z-index: 1;
+}
+.services__heading {
+  font-size: 5rem;
+  margin-top: 0;
+  padding-top: 5rem;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+.services__heading::before {
+  content: "";
+  height: 0.75rem;
+  display: inline-block;
+  width: 150px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  background-color: #e3F307;
+}
+.services__wrapper {
+  max-width: 75rem;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.services__card {
+  width: 30%;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.services__title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-top: 28px;
+}
+.services__title a {
+  color: white;
+  text-decoration: none;
+}
+.services__text {
+  font-size: 0.87rem;
+  margin-top: 5px;
+}
+@media screen and (max-width: 767px) {
+  .services__wrapper {
+    padding-top: 50px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  .services__heading {
+    font-size: 35px;
+    margin: 0 0 -23px 5px;
+    padding: 20px 0 0 5px;
+  }
+  .services__heading::before {
+    display: none;
+  }
+  .services__title {
+    margin-top: 20px;
+    font-size: 1.75rem;
+  }
+  .services__card {
+    width: 100%;
+    text-align: center;
+  }
+  .services__text {
+    font-size: 0.999rem;
+    padding: 10px 70px;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .services__wrapper {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  .services__heading {
+    font-size: 55px;
+    margin: 0 0 -20px 5px;
+    padding: 20px 0 0 5px;
+  }
+  .services__heading::before {
+    height: 0.4rem;
+    margin-right: 5px;
+    width: 45px;
+  }
+  .services__card {
+    width: 47%;
+    text-align: center;
+  }
+  .services__title {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  .services__text {
+    font-size: 0.999rem;
+    padding: 10px 70px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+  }
+}

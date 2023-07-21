@@ -1,0 +1,71 @@
+@use "./abstract/colors" as *;
+
+.crafting {
+
+    padding: 3.5rem 1.25rem ;
+    box-sizing: border-box;
+
+    &__item {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+
+            &:nth-child(2) {
+                flex-direction: row-reverse;
+            }
+        }
+
+        &:first-child {
+
+            margin-bottom: 6rem;
+
+            @media screen and (min-width: 768px) {
+
+                .crafting__item__content {
+                    margin-right: 2.5rem;
+                    margin-left: 0;
+                }
+            }
+        }
+
+        &__img img {
+            width: 100%;
+
+            @media screen and (min-width: 768px) {
+                margin-top: 1.5rem;
+            }
+        }
+
+        &__content {
+            margin-top: 1rem;
+
+            @media screen and (min-width: 768px) {
+
+                margin-left: 2.5rem;
+                max-width: 50%;
+            }
+        }
+
+        &__title {
+            margin-bottom: 1.25rem;
+            color: $navy-blue;
+            font-family: Work Sans,sans-serif;
+            font-weight: 800;
+        }
+
+        &__desc {
+            font-size: 1.0rem;
+            font-family: Work Sans,sans-serif;
+            line-height: 1.5rem;
+
+            @media screen and (min-width:1023px) {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,124 @@
+.food__banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    size: 50;
+    margin-top: 120px;
+}
+.food__bannertwo {
+    position: relative;
+    text-align: center;
+    color: white;
+    size: 50;
+    margin-top: -5px;
+}
+
+.food__banner__title {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    justify-content: center;
+
+    font-size: 40px;
+    font-family: "Work Sans", sans-serif;
+}
+.food__banner__text {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 1%;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+}
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: left;
+    padding: 10px;
+}
+
+.contain__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__icon {
+    float: right;
+}
+
+.center {
+    margin-top: 70px;
+}
+
+
+/* @media only screen and(max-width: 480px) {
+    .food__banner {
+      display: block;
+      width: auto;
+      position: relative;
+      text-align: center;
+      color: white;
+      size: 100%;
+      margin-top: 120px;
+      max-width: 100%;
+
+    }
+    .food__bannertwo {
+        position: relative;
+        text-align: center;
+        color: white;
+        size: 50;
+        margin-top: -5px;
+        max-width: 100%;
+    }
+    .food__banner__title {
+        text-align: center !important;
+        left: 0;
+        font-size: 16px;
+    }
+} */
+@media only screen and (max-width:750px) {
+    .food__banner {
+        width: 100%;
+        margin-top: 60px;
+    }
+    .food__banner img {
+        max-height: 300px;
+    }
+    .food__bannertwo img {
+        max-height: 300px;
+    }
+    .food__bannertwo {
+        max-width: 100%;
+    }
+    .food__banner__title {
+        text-align: center !important;
+        left: 12%;
+        font-size: 30px;
+
+    }
+    .food__banner__text {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    .footer__icon {
+        display: block;
+    }
+    .fab fa-instagram fa-lg  fa-fw {
+        justify-content: center;
+    }
+}
+
+

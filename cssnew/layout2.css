@@ -1,0 +1,217 @@
+.about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    margin: 7%;
+    padding: 5%;
+    margin-top: 30px;
+  }
+
+  .about__left__column img {
+    height: 500px;
+    width: 570px;
+  }
+
+  .about__right__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about__desc h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family:  "Work Sans", sans-serif;
+  }
+
+  .about__desc h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family:  "Work Sans", sans-serif;
+    color: grey;
+  }
+
+  .about__desc p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family:  "Work Sans", sans-serif;
+    color: grey;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .about {
+      /* Adjust container styles for mobile */
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "about__left__column"
+      "about__right__column";
+      display: block;
+      justify-content: center;
+    }
+  }
+
+    @media only screen and (max-width: 750px) {
+      .about {
+        /* Adjust container styles for mobile */
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "about__left__column"
+        "about__right__column";
+        display: grid;
+        justify-content: center;
+        font-size: 24px;
+        padding: 5px;
+      }
+    .about__left__column img {
+      /* Adjust element styles for mobile */
+      text-align: center;
+      max-width: 100%;
+      height: 100%;
+      align-items: center;
+    }
+    .about__desc {
+        justify-content: center;
+        padding: 3px;
+    }
+    .about__desc h2 {
+      font-size: 20px;
+    }
+    .about__desc h3 {
+      font-size: 16px;
+    }
+    .about__desc p {
+      font-size: 15px;
+    }
+    .bottom__image--center {
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+    .about__right__column {
+      max-width: 100%;
+    }
+
+  }
+  @media only screen and (max-width: 750px) {
+    .header {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "header__logo"
+      "header__nav__list"
+      "header__icon";
+      display: grid;
+      justify-content: center;
+      font-size: 24px;
+      display: inline;
+      width: 100%;
+
+    }
+    .header__nav__list {
+      visibility: hidden;
+      display: none;
+    }
+    .header__logo img {
+      margin-top: -14px;
+      margin-left: 20px;
+
+    }
+  }
+  @media only screen and (max-width: 749px) {
+    .header__logo {
+    margin-left: 5%;
+}
+.header__icons {
+  margin-right: 0%;
+}
+  }
+
+  /* @media only screen and (max-width: 750px) {
+    .header {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "header__logo"
+      "header__nav__list"
+      "header__icon";
+      display: grid;
+      justify-content: center;
+      font-size: 24px;
+      display: inline;
+
+    }
+    .header__list {
+      visibility: none;
+    }
+  } */
+
+  @media only screen and (max-width: 750px) {
+    .footer {
+      padding-top: 0%;
+    }
+    .footer__columns {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0px;
+      padding-right: 0px;
+      max-width: 100%;
+      font-size: 15px;
+        }
+      .footer_column {
+        text-align: start;
+        /* padding: 10px; */
+        font-size: 15px;
+
+      }
+      .footer__icon {
+        display: block;
+      }
+      #footimage {
+        margin-top: 20px;
+        margin-left: 20px;
+        text-align: center;
+        margin-right: -86px;
+      }
+      #footer__insta__icon {
+        /* text-align: center; */
+      }
+      #footer__copyright {
+        text-align: center;
+        margin-top: 50px;
+        margin-left: -165px;
+        font-size: 33px;
+      }
+      #footer__copyright p {
+        text-align: center;
+        font-size: 16px;
+      }
+      .footer__list ul{
+        padding-top: 12px;
+      }
+      .footer__list li {
+        padding-top: 15px;
+      }
+      }
+
+
+      @media only screen and (max-width: 767px) {
+        .instagram__title {
+          /* width: 555px; */
+          font-size: 16px;
+            }
+          .instagram__title h2 {
+            text-align: center;
+            font-size: 15px;
+          }
+          .instagram__title h4 {
+            font-size: 16px;
+          }
+          .instagram__text {
+            margin-left: 4%;
+            font-size: 20px;
+          }
+          }
+          @media only screen and (min-width: 767px) {
+            .footer__column {
+              padding-left: 0px;
+      padding-right: 0px;
+            }
+          }

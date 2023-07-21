@@ -1,0 +1,52 @@
+@use "./abstract/colors" as *;
+
+.tab {
+    .title {
+        padding: 60px;
+        text-align: center;
+        background-color: $yellow;
+        color: $primary-blue;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    &-container {
+        display: flex;
+    }
+
+    &-header {
+        /* Remove display: flex; */
+        background-color: $yellow;
+        color: $primary-blue;
+
+        & > div {
+            /* Adjust width as needed */
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+
+            &.active {
+                background-color: $white;
+                color: $black;
+                /* Remove border-top-left-radius and border-top-right-radius */
+                font-weight: bold;
+            }
+        }
+    }
+
+    &-body {
+        margin: 70px 30px;
+        position: relative;
+        width: 100%;
+    }
+
+    &-content {
+        position: absolute;
+        opacity: 0;
+
+        &.active {
+            opacity: 1;
+        }
+    }
+}

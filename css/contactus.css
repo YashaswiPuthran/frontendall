@@ -1,0 +1,72 @@
+.discuss {
+  background-color: rgb(6, 6, 228);
+}
+.discuss__head {
+  padding-top: 6rem;
+  text-align: center;
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.discuss__button {
+  background-color: #e3F307;
+  border: 0.0625rem solid #e3F307;
+  color: #001186;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  margin-top: 3.5rem;
+  margin-left: 652px;
+  margin-bottom: 6rem;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.3125rem;
+  display: inline-block;
+}
+.discuss__button:hover {
+  color: #e3F307;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .discuss__button {
+    background-color: #e3F307;
+    border: 0.0625rem solid #e3F307;
+    color: #001186;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 3.5rem;
+    margin-left: 38%;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .discuss__head {
+    padding-top: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .discuss__button {
+    background-color: #e3F307;
+    border: 0.0625rem solid #e3F307;
+    color: #001186;
+    border-radius: 0.3125rem;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    margin-top: 3.5rem;
+    margin-left: 30%;
+    margin-bottom: 6rem;
+    padding: 0.5rem 2.5rem;
+  }
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SLIDER</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slider.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        <div class="slider__items">
+            <img src="C:\Users\YASHASWI\Downloads\taj.webp" alt="taj">
+            <div class="caption">
+                <h2>Golden Triangle Tour</h2>
+                <p>11 Nights- 12 Days</p>
+            </div>
+        </div>
+        <div class="slider__items">
+            <img src="C:\Users\YASHASWI\Downloads\kailash.webp" alt="kailash">
+            <div class="caption">
+                <h2>Adi Kailash trek</h2>
+                <p>12 Nights- 13 Days</p>
+            </div>
+        </div>
+        <div class="slider__items">
+            <img src="C:\Users\YASHASWI\Downloads\frozen.jpg" alt="frozen">
+            <div class="caption">
+                <h2>Frozen River Trek</h2>
+                <p>7 Nights- 12 Days</p>
+            </div>
+        </div>
+        <div class="slider__items">
+            <img src="C:\Users\YASHASWI\Downloads\yatra.webp" alt="yatra">
+            <div class="caption">
+                <h2>Chardham Yatra Package</h2>
+                <p>14 Nights- 11 Days</p>
+            </div>
+        </div>
+    </div>
+    <h3> Top Trending India Holiday Destinations</h3>
+    <div class="slider__two">
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\rajasthan.webp" alt="kerala">
+            <p> Rajasthan</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\himachal.webp" alt="kerala">
+            <p> Himachal</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\kashmir.webp" alt="kerala">
+            <p> Kashmir</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\sikkim.webp" alt="kerala">
+            <p> Sikkim </p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\uttrakhand.webp" alt="kerala">
+            <p> Uttarkhand</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\kerala.webp" alt="kerala">
+            <p> Kerala</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\ladakh.webp" alt="kerala">
+            <p> Ladakh</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\gujarat.webp" alt="kerala">
+            <p> Gujarat</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\tamilnadu.webp" alt="kerala">
+            <p> Tamilnadu</p>
+            <p> 70 Tour Packages</p>
+        </div>
+        <div class="slider__image">
+            <img src="C:\Users\YASHASWI\Downloads\arunachal.webp" alt="kerala">
+            <p> Arunachal Pradesh</p>
+            <p> 70 Tour Packages</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                fade: true,
+                speed: 500,
+                cssEase: 'linear',
+                prevArrow: '<div class="slick-prev"></div>',
+                nextArrow: '<div class="slick-next"></div>'
+            });
+        });
+
+        $('.slider__two').slick({
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            speed: 500,
+            prevArrow: '<div class="slick-prev"></div>',
+            nextArrow: '<div class="slick-next"></div>'
+        });
+    </script>
+</body>
+
+</html>
